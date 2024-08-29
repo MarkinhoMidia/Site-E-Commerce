@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/marvel/js/script.js" defer></script>
+    <link rel="stylesheet" href="./marvel/css/styles.css">
+    <title>Produto</title>
+</head>
+<body onload="carregaProduto()">
+    <header>
+       <div id="hcont">
+        <a href="marvel/index.html" id="home">Home</a>
+        <button onclick="abreTelaLogin()" id="log">Login</button>
+        <h1>Loja dos <br> Vingadores</h1>
+        <a onclick="calculaCesta()" class="car" href="#">Compras<img src="/marvel/imagem/carrinho.png" alt="Carrinho de Compras"></a>
+       </div>
+    </header>
+    <h1 id="tituloProduto"></h1>
+    <div id="central">
+        <div id="imgProd"></div>
+        <p id="descProduto"></p>
+    </div>
+</body>
+</html>
